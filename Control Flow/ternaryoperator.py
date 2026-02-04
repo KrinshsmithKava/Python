@@ -6,4 +6,4 @@
 
 number = int(input("enter the number "))
 result = "the number is even" if number % 2 == 0 else "odd number"
-print(f"{result}")
+print(f"The number is {result}")
