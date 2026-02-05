@@ -1,0 +1,16 @@
+class Employee:
+    def greet(self):
+        print("Employee Greet")
+
+
+class Person:
+    def greet(self):
+        print("Person Greet")
+
+
+class Manager(Person, Employee):
+    pass
+
+
+manager = Manager()
+manager.greet()
