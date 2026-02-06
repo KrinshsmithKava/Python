@@ -7,9 +7,10 @@ target = Path() / "app.py"
 
 shutil.copy(source, target)
 
+
 # path.exists()
-# path.rename("init.txt")
-# path.unlink()
+# path.rename("app.py")
+# path.ulike()
 # print(ctime(path.stat().st_ctime))
 
 # print(path.read_text())
