@@ -26,19 +26,20 @@ ddl = DropDownList()
 textbox = TextBox()
 draw([ddl, textbox])
 
+# Example of Polymorphism
 
-class Dog:
-    def speak(self):
-        print("Bark")
-
-
-class Cat:
-    def speak(self):
-        print("Meow")
+# class Dog:
+#     def speak(self):
+#         print("Bark")
 
 
-dog = Dog()
-cat = Cat()
+# class Cat:
+#     def speak(self):
+#         print("Meow")
 
-dog.speak()
-cat.speak()
+
+# dog = Dog()
+# cat = Cat()
+
+# dog.speak()
+# cat.speak()
