@@ -18,19 +18,19 @@ def draw(controls):
 
 # Example of Duck Typing
 
-class Dog:
-    def speak(self):
-        print("Bark")
+# class Dog:
+#     def speak(self):
+#         print("Bark")
 
 
-class Person:
-    def speak(self):
-        print("Hello")
+# class Person:
+#     def speak(self):
+#         print("Hello")
 
 
-def make_sound(obj):
-    obj.speak()   # Python doesn't care what obj is
+# def make_sound(obj):
+#     obj.speak()   # Python doesn't care what obj is
 
 
-make_sound(Dog())
-make_sound(Person())
+# make_sound(Dog())
+# make_sound(Person())

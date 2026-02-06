@@ -8,14 +8,15 @@ class TrackableList(list):
         print("Append Called")
         super().append(object)
 
+# text = Text("Python")
+# print(text.duplicate())
+
 
 list = TrackableList()
 list.append("1")
 
-# text = Text("Python")
-# print(text.duplicate())
 
-# Example
+# Example Extend Built in Types
 
 # class MyList(list):
 #     def sum(self):
