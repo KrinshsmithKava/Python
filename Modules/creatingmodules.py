@@ -1,7 +1,12 @@
-from sales import calc_shipping, calc_tax
+# from sales import calc_shipping, calc_tax
+# import sales
+
+# sales.calc_shipping()
+
+# calc_shipping()
+# calc_tax()
+
 import sales
+import sys
 
-sales.calc_shipping()
-
-calc_shipping()
-calc_tax()
+print(sys.path)
