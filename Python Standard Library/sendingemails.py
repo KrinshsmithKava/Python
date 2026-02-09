@@ -11,6 +11,6 @@ message.attach(MIMEText("Body"))
 with smtplib.SMTP(host="smtp.gmail.com", port=587) as smtp:
     smtp.ehlo()
     smtp.starttls()
-    smtp.login("krinshsmithkava3@gmail.com", "krinshsmith@2407")
+    smtp.login("krinshsmithkava3@gmail.com", "krinshmith@2407")
     smtp.send_message(message)
     print("Sent...")
