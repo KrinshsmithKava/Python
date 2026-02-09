@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 import smtplib
 
 message = MIMEMultipart()
-message["from"] = "Krinshsmith Kava"
+message["from"] = "Mosh Hamedani"
 message["to"] = "testuser@codewithmosh.com"
 message["subject"] = "This is a test"
 message.attach(MIMEText("Body"))
@@ -11,6 +11,6 @@ message.attach(MIMEText("Body"))
 with smtplib.SMTP(host="smtp.gmail.com", port=587) as smtp:
     smtp.ehlo()
     smtp.starttls()
-    smtp.login("krinshsmithkava3@gmail.com", "krinshmith@2407")
+    smtp.login("testuser@codewithmosh.com", "todayskyisblue1234")
     smtp.send_message(message)
     print("Sent...")
