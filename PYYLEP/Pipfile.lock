@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c8a2f8edb004bb0e96c7f13aedeb97b7b68cbd58cd809e5651e19a4251c9aaaa"
+            "sha256": "fe5321e99a43d3af68b3d81185d28be712822507f23fae9f2236829c51a5b49e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -150,23 +150,6 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==3.11"
-        },
-        "moshpdf": {
-            "hashes": [
-                "sha256:529f8096f7faab205045f5dfe86e26a56d24dfaeffdcc0dfc4d65531c5f4fe0e",
-                "sha256:7a59dc090261039602b584ab581c0deec9670e58a1215afa42d6d400179bd38f"
-            ],
-            "index": "pypi",
-            "version": "==1.0"
-        },
-        "pypdf2": {
-            "hashes": [
-                "sha256:a74408f69ba6271f71b9352ef4ed03dc53a31aa404d29b5d31f53bfecfee1440",
-                "sha256:d16e4205cfee272fbdc0568b68d82be796540b1537508cef59388f839c191928"
-            ],
-            "index": "pypi",
-            "markers": "python_version >= '3.6'",
-            "version": "==3.0.1"
         },
         "requests": {
             "hashes": [

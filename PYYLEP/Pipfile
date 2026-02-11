@@ -4,9 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-moshpdf = "*"
 requests = "*"
-pypdf2 = "*"
 
 [dev-packages]
 
