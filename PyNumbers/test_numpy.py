@@ -19,21 +19,21 @@ import numpy as np
 
 # Arithmetic Operations
 
-first = np.array([1, 2, 3])
-second = np.array([1, 2, 3])
-print(first + second)
-print(first - second)
-print(first * second)
-print(first / second)
-print(first % second)
+# first = np.array([1, 2, 3])
+# second = np.array([1, 2, 3])
+# print(first + second)
+# print(first - second)
+# print(first * second)
+# print(first / second)
+# print(first % second)
 
-print(first + 2)
-print(first - 2)
-print(first * 2)
-print(first / 2)
-print(first % 2)
+# print(first + 2)
+# print(first - 2)
+# print(first * 2)
+# print(first / 2)
+# print(first % 2)
 
-#dimensons for inch and cm 
+#Dimensions for inch and cm
 
 # dimensions_inch = np.array([1, 2, 3])
 # dimensions_cm = dimensions_inch * 2.54
