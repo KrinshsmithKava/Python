@@ -1,4 +1,4 @@
-import penpyxl
+import openpyxl
 
 #wb = openpyxl.workbook()
 wb = openpyxl.load_workbook("transactions.xlsx")
